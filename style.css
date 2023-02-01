@@ -30,7 +30,7 @@
 
         #hero {
             display: flex;
-            margin-top: 120px;
+            padding-top: 120px;
             /* height: 50px !important; */
             align-items: start !important;
             height: 20vh !important;
@@ -50,7 +50,7 @@
 
     /* About Us */
     #about #contentAbout{
-        /* margin-top: -200px !important; */
+        margin-top: 50px !important;
         flex-direction: column;
     }
 
