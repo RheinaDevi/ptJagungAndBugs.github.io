@@ -1,0 +1,104 @@
+@media (max-width: 560px) {
+    /* Navbar */
+    .navbar .navbar-brand {
+        width: 40% !important;
+        position: absolute;
+    }
+
+    .navbar .navbar-brand .navbar-toogler{
+        margin-left: 200px !important ;
+        position: absolute;
+    }
+
+    .navbar .navbar-nav {
+        padding-left: 0 !important;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        padding: 2px;
+        margin-left: 0 !important;
+    }
+
+    .navbar .navbar-nav .nav-item:hover{
+        color: white;
+        font-weight: bold;
+        background-color: #C3FCF1;
+    }
+    /* End Navbar */
+
+    /* Hero */
+
+        #hero {
+            display: flex;
+            margin-top: 120px;
+            align-items: start !important;
+        }
+
+        #hero .img1 img{
+            width: 200px;
+        }
+
+        #hero .img2 img{
+            width: 200px;
+        }
+    /* End Hero */
+
+
+    /* About Us */
+    #about #contentAbout{
+        margin-top: -400px !important;
+        flex-direction: column;
+    }
+
+    #about #contentAbout #item1 p{
+        width: 100% !important;
+    }
+
+    #about #contentAbout img {
+        display: none;
+    }
+
+    #about #contentAbout img {
+        width: 100% !important;
+    }
+    /* End About Us */
+
+
+    /* Best Product */
+    #product #contentProduct{
+        display: flex;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    #product #contentProduct .card{
+        width: 90% !important;
+        margin: 10px !important;
+    }
+    /* End Best Product */
+
+    /* Our Team */
+    #team #contentTeam{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #team #contentTeam .card{
+        margin: 10px 50px !important;
+        width: 75% !important;
+    }
+
+
+
+    /* End Our Team */
+
+
+}
+
+#hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    width: 100% !important;
+}
