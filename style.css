@@ -31,14 +31,18 @@
         #hero {
             display: flex;
             margin-top: 120px;
+            /* height: 50px !important; */
             align-items: start !important;
+            height: 20vh !important;
         }
 
         #hero .img1 img{
+       
             width: 200px;
         }
 
         #hero .img2 img{
+       
             width: 200px;
         }
     /* End Hero */
@@ -46,7 +50,7 @@
 
     /* About Us */
     #about #contentAbout{
-        margin-top: -400px !important;
+        /* margin-top: -200px !important; */
         flex-direction: column;
     }
 
@@ -84,8 +88,8 @@
     }
 
     #team #contentTeam .card{
-        margin: 10px 50px !important;
-        width: 75% !important;
+        margin: 10px 22px !important;
+        width: 85% !important;
     }
 
 
